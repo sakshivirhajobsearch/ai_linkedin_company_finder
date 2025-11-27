@@ -1,0 +1,129 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+pip-log.txt
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+.venv/
+python_env/
+myenv/
+
+# ==============================
+# Node / Frontend
+# ==============================
+node_modules/
+dist/
+*.cache
+*.tmp
+
+# ==============================
+# Java / Maven
+# ==============================
+/target/
+*.class
+*.jar
+*.war
+*.iml
+.mvn/
+.settings/
+*.ipr
+*.iws
+*.classpath
+/.idea/
+*.out
+*.db
+
+# ==============================
+# Logs
+# ==============================
+logs/
+debug.log
+nohup.out
+*.log
+
+# ==============================
+# OS / IDE Junk
+# ==============================
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+*.bak
+
+# ==============================
+# AI Models / Large Data
+# ==============================
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.sav
+
+# ==============================
+# Temporary / Processing Files
+# ==============================
+uploads/
+tmp/
+cache/
+*.orig
+*.tmp
+
+# ==============================
+# Generated JSON / Runtime State
+# ==============================
+domain_resume.json
+email_resume.json
+domain_cli_resume.json
+email_cli_resume.json
+domain_gui_resume.json
+email_gui_resume.json
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env.local
+.env.development
+.env.production
+.env.test
+credentials.json
+secrets.json
+
+# ==============================
+# Project-specific cleanup
+# ==============================
+
+# Ignore SQLite temporary files
+*.sqlite3
+*.sqlite3-journal
+*.db-shm
+*.db-wal
+
+# Ignore cache folders
+common/__pycache__/
+
+# ==============================
+# Email Verifier Output Handling
+# ==============================
+
+# Do NOT ignore output folder – your program creates important reports
+
+# Ignore only temporary Excel lock files
+~$*.xlsx
+
+# ==============================
+# General Safety
+# ==============================
+*.orig
+*.tmp
